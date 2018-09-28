@@ -1,5 +1,5 @@
 class Dog
-  attr_writer
+  attr_writer :name, :breed
   def initialize(name, breed = "Mutt")
     @name = name
     @breed = breed
